@@ -1,3 +1,5 @@
-### Hi 👋
+### Hi there 👋
 
-<img width="80" src="https://i.pinimg.com/originals/69/25/93/692593bf84015b2b32bf9669565133f9.gif" />
+![Public Github Stats](https://github-readme-stats.vercel.app/api?username=icoder-new&show_icons=true&hide_border=false)
+
+![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/LyoSU/&title=Profile%20Views)
