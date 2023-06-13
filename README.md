@@ -1,7 +1,51 @@
-<h1 align="center">Hi there 👋, search of myself</h1>
+### <img src="https://media3.giphy.com/media/cdZAGXI45pQ6Q/200w.webp?cid=ecf05e47bl9p22lqiw84me0ugiodtaksl8csls7m2f8toawc&rid=200w.webp&ct=s" width="50">  Hi I'm Gadoev Ehson
+```go
+package icoder-new
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=icoder-new&label=Profile%20views&color=0e75b6&style=flat" alt="icoder-new" /> </p>
+import "fmt"
 
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+type Programmer interface {
+	Eat()
+	Code()
+	Sleep()
+}
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=icoder-new&show_icons=true&locale=en&layout=compact" alt="icoder-new" /></p>
+type Gopher struct {
+	name string
+}
+
+func NewGopher(name string) *Gopher {
+	return &Gopher{name: name}
+}
+
+func (g *Gopher) Eat() {
+	fmt.Printf("%s is eating...\n", g.name)
+}
+
+func (g *Gopher) Code() {
+	fmt.Printf("%s is coding...\n", g.name)
+}
+
+func (g *Gopher) Sleep() {
+	fmt.Printf("%s is sleeping...\n", g.name)
+}
+
+func Run() {
+	gopher := NewGopher("Ehson")
+	var programmer Programmer = gopher
+	programmer.Eat()
+	programmer.Code()
+	programmer.Sleep()
+}
+```
+### <img src="https://media1.giphy.com/media/aoydQ5HRJUAbm/200w.webp?cid=ecf05e47o0tp0ekam8nvvne2ishova5durnotvi6fz1vacq5&rid=200w.webp&ct=s" width="100"> Languages & Tools
+
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)  ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
+![Goland](https://img.shields.io/badge/Goland-143?style=for-the-badge&logo=goland&logoColor=black&color=black&labelColor=darkorchid) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+BTW, I use ![windows](https://img.shields.io/badge/Windows-1793D1?logo=windows&logoColor=fff&style=for-the-badge)
+
+
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=icoder-new&hide=html&show_icons=true&locale=en&theme=tokyonight) 
